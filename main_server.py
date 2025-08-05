@@ -190,5 +190,3 @@ async def process_file_from_url(request: ProcessFileFromUrlRequest):
         return JSONResponse(content={"error": str(e)}, status_code=500)
     finally:
         cleanup_temp_files(temp_file_path, audio_path)
-
-# TODO: if dynamic segmentation is empty skip it
