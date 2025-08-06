@@ -38,7 +38,7 @@ It can process both **uploaded files** and **remote files via URL** to:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ai-audio-segmentation-api.git
+git clone <this_git_repo_url>
 cd ai-audio-segmentation-api
 
 # Create virtual environment
@@ -177,3 +177,4 @@ Processing steps are logged both to the console and to `server.log`, including:
 ## 📜 License
 
 MIT License. See **LICENSE** for details.
+
